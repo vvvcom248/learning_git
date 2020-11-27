@@ -1,0 +1,11 @@
+
+
+
+20)git branch - просматриваем ветки проэкта  пример:(PS D:\github\test> git branch
+                                                   * main)
+21)git push --set-upstream origin implement-new-logic    - создаем еще одну ветку "implement-new-logic" пример:(PS D:\github\test> git push --set-upstream origin implement-new-logic
+                                      implement-new-logic
+                                    * main)
+22)git checkout name - перейти на другую ветку пример:(PS D:\github\test> git checkout implement-new-logic
+                                                       Switched to branch 'implement-new-logic')
+23)git merge implement-new-logic - перенести данные с ветки  "implement-new-logic" в ветку "main" (перед этим нужно перейти в ветку "main" командой- git checkout main потом- git merge implement-new-logic
